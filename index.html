@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Composition</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -24,10 +25,205 @@
 
     <hr>
 
-    <!-- slide -->
-    <div></div>
+    <div class="container">
+        <p>
+            “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque „
+        </p>
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li id="slide-0" data-target="#Carousel" data-slide-to="0"></li>
+                <li id="slide-1" data-target="#Carousel" data-slide-to="1"></li>
+                <li id="slide-2" data-target="#Carousel" data-slide-to="2"></li>
+                <li id="slide-3" data-target="#Carousel" data-slide-to="3"></li>
+                <li id="slide-4" data-target="#Carousel" data-slide-to="4" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/main-image.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/main-image.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/main-image.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/main-image.png" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/main-image.png" alt="Fifth  slide">
+                </div>
+            </div>
 
-    <!-- our services -->
+        </div>
+    </div>
+
+
+    <div class="container services-article">
+        <div>
+            <hr>
+            <span id="services">OUR SERVICES</span>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item-services relative">
+                    <img src="./images/our-services.png" alt="services">
+                    <h6>Indonectetus facilis</h6>
+                    <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+                    <a href="#">Read More »</a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="item-services relative">
+                    <img src="./images/our-services.png" alt="services">
+                    <h6>Indonectetus facilis</h6>
+                    <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+                    <a href="#">Read More »</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-services relative">
+                    <img src="./images/our-services.png" alt="services">
+                    <h6>Indonectetus facilis</h6>
+                    <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+                    <a href="#">Read More »</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="container players-artical">
+        <div>
+            <hr>
+            <span id="players">OUR PLAYERS</span>
+        </div>
+        <div class="row">
+            <div class="col-size">
+                <div class="item-players relative">
+                    <img src="./images/our-players.png" alt="playsers">
+                    <p class="name"><strong>Name:</strong> John Doe</p>
+                    <p class="content">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="col-size float-left">
+                <div class="item-players relative">
+                    <img src="./images/our-players.png" alt="playsers">
+                    <p class="name"><strong>Name:</strong> John Doe</p>
+                    <p class="content">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="col-size float-left">
+                <div class="item-players relative">
+                    <img src="./images/our-players.png" alt="playsers">
+                    <p class="name"><strong>Name:</strong> John Doe</p>
+                    <p class="content">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="col-size float-left">
+                <div class="item-players relative">
+                    <img src="./images/our-players.png" alt="playsers">
+                    <p class="name"><strong>Name:</strong> John Doe</p>
+                    <p class="content">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="col-size float-left">
+                <div class="item-players relative">
+                    <img src="./images/our-players.png" alt="playsers">
+                    <p class="name"><strong>Name:</strong> John Doe</p>
+                    <p class="content">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ -->
+
+
+    <div id="players-artical" class="container">
+        <div>
+            <hr>
+            <span id="players">OUR PLAYERS</span>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="./images/our-players.png" alt="playsers">
+                <div class="card-body">
+                    <p class="name"><strong>Name:</strong> John Doe</p>
+                    <p class="content">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/our-players.png" alt="playsers">
+                <div class="card-body">
+                    <p class="card-text"><strong>Name:</strong> John Doe</p>
+                    <p class="card-text">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/our-players.png" alt="playsers">
+                <div class="card-body">
+                    <p class="card-text"><strong>Name:</strong> John Doe</p>
+                    <p class="card-text">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/our-players.png" alt="playsers">
+                <div class="card-body">
+                    <p class="card-text"><strong>Name:</strong> John Doe</p>
+                    <p class="card-text">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/our-players.png" alt="playsers">
+                <div class="card-body">
+                    <p class="card-text"><strong>Name:</strong> John Doe</p>
+                    <p class="card-text">Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla.</p>
+                    <a href="#">View Profile »</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--     
+    <div class="container">
+        <div>
+            <hr>
+            <span id="work">LATEST WORK</span>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item-work relative">
+                    <img src="./images/lastest-works.png" alt="work">
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="item-services relative">
+                    <img src="./images/lastest-works.png" alt="work">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-services relative">
+                    <img src="./images/lastest-works.png" alt="work">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+        <!-- our services -->
 
 
 </body>

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -14,10 +18,10 @@ header {
 .menu {
     position: absolute;
     right: 0px;
-    bottom: 15px;
-    padding: 15px;
+    bottom: 10px;
+    padding: 10px;
     border-radius: 5px;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: #ca3f3f;
 }
 
@@ -32,3 +36,164 @@ header {
 .menu a:hover {
     color: #8b8383;
 }
+
+div p {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.carousel {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.carousel-indicators {
+    top: auto;
+    bottom: -10px;
+}
+
+.carousel-indicators li {
+    background: #cecece;
+}
+
+.carousel-indicators .active {
+    /* background: #0f0f0f; */
+    border: 2px solid #0f0f0f;
+}
+
+#slide-0 {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#slide-1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#slide-2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#slide-3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#slide-4 {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+
+/*  */
+
+.services-article {
+    margin-top: 100px;
+}
+
+#services {
+    position: absolute;
+    top: 855px;
+    margin-left: 470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ca3f3f;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.item-services img {
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+.item-services h6 {
+    position: absolute;
+    left: 70px;
+    top: 5px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.item-services p {
+    position: absolute;
+    left: -185px;
+    top: 5px;
+    /* height: 10px; */
+    text-align: left;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ada1a1;
+}
+
+.item-services a {
+    position: absolute;
+    left: 14px;
+    top: 190px;
+    font-size: 14px;
+    color: #ca3f3f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*  */
+
+#players-artical {
+    margin-top: 250px;
+}
+
+#players {
+    position: absolute;
+    top: 1190px;
+    margin-left: 470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ca3f3f;
+}
+
+.card-deck {}
+
+.card {
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+    border: none;
+}
+
+.name {
+    position: absolute;
+    top: 1387px;
+    left: 15px;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+/* .item-players p {
+    float: left;
+}
+
+.card-body {
+    float: left;
+} */
