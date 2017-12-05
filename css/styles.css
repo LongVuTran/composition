@@ -13,7 +13,7 @@ header {
     display: inline-block;
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    bottom: 10px;
 }
 
 .menu {
@@ -21,7 +21,7 @@ header {
     right: 0px;
     bottom: 10px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #ca3f3f;
 }
 
@@ -97,19 +97,7 @@ header {
 }
 
 .services-article {
-    margin-top: 100px;
-}
-
-#services {
-    position: absolute;
-    top: 830px;
-    margin-left: 470px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #ca3f3f;
+    margin-top: 50px;
 }
 
 .content-service {
@@ -150,26 +138,14 @@ header {
 
 .item-services a {
     position: absolute;
-    left: 14px;
-    top: 115px;
+    left: 4.5%;
+    top: 440%;
     font-size: 14px;
     color: #ca3f3f;
 }
 
 #players-artical {
-    margin-top: 170px;
-}
-
-#players {
-    position: absolute;
-    top: 1083px;
-    margin-left: 470px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #ca3f3f;
+    margin-top: 150px;
 }
 
 .card-deck {
@@ -203,18 +179,6 @@ header {
     color: #ca3f3f;
 }
 
-#work {
-    position: absolute;
-    top: 1500px;
-    margin-left: 470px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #ca3f3f;
-}
-
 #last-context {
     font-size: 14px;
     color: #ada1a1;
@@ -236,7 +200,6 @@ header {
 }
 
 .blog-info {
-    /* float: left; */
     width: 500px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -247,13 +210,13 @@ header {
     float: left;
     /* padding-right: 10px; */
     margin-right: 15px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #919191;
 }
 
 .content-img {
     font-size: 14px;
+    margin-right: 15px;
 }
 
 .title-img {
@@ -313,4 +276,19 @@ hr {
     font-size: 18px;
     color: #ffffff;
     background-color: #ca3f3f;
+}
+
+.crack {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: -13px;
+    left: 41.5%;
+    text-align: center;
+    padding: 5px 25px;
+    color: #ffffff;
+    background-color: #ca3f3f;
+    border-radius: 5px;
 }
