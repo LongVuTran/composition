@@ -285,9 +285,10 @@ hr {
 .title {
     position: absolute;
     top: -13px;
-    left: 41.5%;
+    left: 41%;
+    right: 41%;
     text-align: center;
-    padding: 5px 25px;
+    padding: 5px 5px;
     color: #ffffff;
     background-color: #ca3f3f;
     border-radius: 5px;
