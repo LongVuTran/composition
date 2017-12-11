@@ -132,7 +132,6 @@ header {
     position: absolute;
     left: -185px;
     top: 0px;
-    height: 10px;
     text-align: left;
     font-size: 14px;
     color: #ada1a1;
@@ -141,7 +140,8 @@ header {
 .item-services a {
     position: absolute;
     left: 4.5%;
-    top: 360%;
+    top: 350%;
+    margin-top: 30px;
     font-size: 14px;
     color: #ca3f3f;
 }
