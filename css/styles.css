@@ -22,7 +22,7 @@ header {
     bottom: 10px;
     padding: 10px;
     border-radius: 10px;
-    background: #ca3f3f;
+    background: #e2494b;
 }
 
 .menu a {
@@ -230,7 +230,7 @@ header {
     padding-bottom: 3px;
     font-size: 16px;
     font-weight: bold;
-    color: #ca3f3f;
+    color: #e2494b;
 }
 
 #address,
@@ -250,7 +250,7 @@ header {
 }
 
 #personal-info a {
-    color: #ca3f3f;
+    color: #e2494b;
 }
 
 #schedules p {
@@ -283,7 +283,7 @@ hr {
     border-radius: 5px;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ca3f3f;
+    background-color: #e2494b;
 }
 
 .crack {
@@ -298,6 +298,6 @@ hr {
     text-align: center;
     padding: 5px 5px;
     color: #ffffff;
-    background-color: #ca3f3f;
+    background-color: #e2494b;
     border-radius: 5px;
 }
