@@ -107,7 +107,6 @@ header {
     margin-right: 0px;
     margin-left: 200px;
     margin-bottom: 50px;
-    /* padding-left: 0px; */
     padding-right: 0px;
     font-size: 20px;
 }
@@ -134,7 +133,7 @@ header {
     top: 0px;
     text-align: left;
     font-size: 14px;
-    color: #ada1a1;
+    color: #979797;
 }
 
 .item-services a {
@@ -174,7 +173,7 @@ header {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 14px;
-    color: #ada1a1;
+    color: #979797;
 }
 
 .card-body a {
@@ -201,7 +200,7 @@ header {
 
 .inner-info {
     padding-top: 20px;
-    color: #777373;
+    color: #999999;
 }
 
 .blog-info {
