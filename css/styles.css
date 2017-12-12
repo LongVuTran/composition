@@ -201,6 +201,7 @@ header {
 
 .inner-info {
     padding-top: 20px;
+    color: #777373;
 }
 
 .blog-info {
@@ -220,6 +221,7 @@ header {
 .content-img {
     font-size: 14px;
     margin-right: 15px;
+    color: #777373;
 }
 
 .title-img {
